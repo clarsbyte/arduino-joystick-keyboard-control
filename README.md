@@ -1,5 +1,5 @@
 # Keyboard Controlled by Arduino Joystick
-This code particularly controls the arrow keys and the space bar, based on typical game controls.
+This code particularly controls the arrow keys and the space bar, based on typical game controls. Make sure to not open the serial monitor in the Arduino so that the Python program works properly. 
 
 ## Wiring Diagram
 ![diagram](https://github.com/user-attachments/assets/1401d172-b9d2-4604-b1dc-258a48b27ef9)
