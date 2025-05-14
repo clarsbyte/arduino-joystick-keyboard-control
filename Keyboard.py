@@ -24,5 +24,8 @@ def decode(x,y,z):
         k.press_and_release("space")
 
 while True:
-    x,y,z = [i for i in ser.readline().decode('ascii').strip()]
-    decode(x,y,z)
+    try:
+        x,y,z = [i for i in ser.readline().decode('ascii').strip()]
+        decode(x,y,z)
+    except:
+        pass
